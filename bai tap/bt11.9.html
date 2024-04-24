@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let maths =+prompt("nhập điểm các Toán")
+        let history =+prompt("nhập điểm các su")
+        let land =+prompt("nhập điểm các dia")
+        let DTB = (maths + history + land)/3
+        if (8<=DTB && DTB<=10) {
+            alert("xếp loại GIỎI.")
+        } else if (6.5<=DTB && DTB<=7.9){
+            alert("xếp loại KHÁ")  
+        }else if (5.0<= DTB && DTB <= 6.4){
+            alert("xếp loại TRUNG BÌNH") 
+        }else{
+            alert("xếp loại YẾU")  
+        }
+
+    </script>
+</body>
+</html>

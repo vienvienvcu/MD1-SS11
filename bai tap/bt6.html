@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script>
+      let height = +prompt("nhap vao chieu cao");
+      let weight = +prompt("nhap vao chieu can nang");
+    //  tinh chi so bmi
+    let bmi = weight/(height**2)
+    console.log(bmi)
+
+    if(bmi <18.5){
+         console.log("can nag thap(gay)")
+    }else if(18.5<= bmi && bmi<24.9){
+        console.log("binh thuong")
+    }else if(bmi>= 25){
+        console.log("thua can")
+    }else if(25>=bmi && bmi<29.9){
+        console.log("tien beo phi")
+    }else if(30>=bmi && bmi<34.9){
+        console.log("do beo phi 1")
+    }
+   </script>
+
+</body>
+</html>

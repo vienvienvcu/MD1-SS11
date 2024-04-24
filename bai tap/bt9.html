@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tìm Max - Min</title>
+</head>
+<body>
+    <script>
+        let a = +prompt("nhap so a");
+        let b = +prompt("nhap so b");
+        let c = +prompt("nhap so c");
+         if(a>b && b<c){
+            alert("so lon nhat la a" + "so nho nhat la c")
+         }else if(a<b){
+            if(b<c){
+             alert("so lon nhat la c " + "so nho nhat la a")
+            }else if(b>c && a>c){
+             alert("so lon nhat la b" + "so nho nhat la c" )
+            }else {
+                alert("so lon nhat la b" + "so nho nhat la a" )
+            }
+         }
+    </script>
+</body>
+</html>
